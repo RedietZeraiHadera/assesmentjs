@@ -1,10 +1,10 @@
 // 1. Write a function that takes in a string and returns it when reversed
 
 function reverse(food){
-    for(let i=0; i<food.length; i--){
+    for(let i=0; i>food.length; i--){
         console.log(food[i])
     }
-    
+   
 }
 let food = "eating"
 let reverse1 = reverse(food);
@@ -88,6 +88,16 @@ console.log((multiply2));
 //6. Write a function that takes in an array of strings and returns an array with every element
 //turned into a number
 //let nums = [“10”,”24”,”45”,”56”,”67”]
+function turnToNumber(nums){
+for(i=0;i<nums.length;i++){
+    console.log(nums[i])
+}
+
+}
+let nums = ['10','24','45','56','67'];
+let turn = turnToNumber(nums);
+console.log(turn)
+
 
 
 
