@@ -68,11 +68,34 @@ return null;
     let target = 23;
     
     console.log(binary(arr,target))
+    //3. Given years between 2000 and 2023, console all the leap years in the following
+    //sentence, i.e “2020 is a leap year” if not console log i.e “2001 is not a leap year” 
 
+    let year = 2000;
+switch(year<2023){
+    case 2004:
+        console.log("2004 is a leap year");
+        break;
+        case 2008:
+            console.log("2008 is a leap year");
+            break;
+            case 2012:
+                console.log("2012 is a leap year");
+                break;
+                case 2016:
+            console.log("2016 is  leap year");
+            break;
+            case 2020:
+            console.log("2020 is a leap year");
+            break;
+            default:
+                 console.log("It is not a leap year")
+                 break;
+}
 
-// 5. Write a function that takes in an array of numbers and returns an array that has all
-// elements multiplied by 4.
-// let numArray = [12,87,45,75,23,64,73]
+  // 5. Write a function that takes in an array of numbers and returns an array that has all
+  // elements multiplied by 4.
+  // let numArray = [12,87,45,75,23,64,73]
 function multiply(numArray){
 
 let i = 0;
